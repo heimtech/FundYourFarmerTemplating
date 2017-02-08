@@ -10,7 +10,7 @@ jQuery( function( $ ) {
 		current_min_distance = parseInt( min_distance, 10 ),
 		current_max_distance = parseInt( max_distance, 10 ),
 		currency_pos = "right",
-		currency_symbol = "KM";
+		currency_symbol = " KM";
 
 	$( document.body ).on( 'distance_slider_create distance_slider_slide', function( event, min, max ) {
 		if ( currency_pos === 'left' ) {

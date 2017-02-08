@@ -9,8 +9,8 @@ jQuery( function( $ ) {
 		max_price = $( '.price_slider_amount #max_price' ).data( 'max' ),
 		current_min_price = parseInt( min_price, 10 ),
 		current_max_price = parseInt( max_price, 10 ),
-		currency_pos = "left",
-		currency_symbol = "$";
+		currency_pos = "right",
+		currency_symbol = "€";
 
 	$( document.body ).on( 'price_slider_create price_slider_slide', function( event, min, max ) {
 		if ( currency_pos === 'left' ) {
