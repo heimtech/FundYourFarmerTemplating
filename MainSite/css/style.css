@@ -8446,7 +8446,7 @@ div.creative-product-title p {
 }
 
 .noo-blog-list li {
-    border-bottom: 1px solid rgba(121, 203, 168, 0.2);
+    border-bottom: 1px solid rgba(104, 154, 4, 0.2);
     padding: 28px 0;
 }
 
@@ -17256,4 +17256,6 @@ div.product-style2 .product-grid .noo-product-inner:hover .noo-product-title .no
     display: block;
     height: 48px;
     margin-bottom: 7px !important;
+    color: black;
+    padding-left: 8px !important;
 }
