@@ -9723,6 +9723,33 @@ article.format-video .blog-item .video-inner iframe {
     padding-right: 35px;
 }
 
+.btn_prime {
+    display: inline-block;
+    position: relative;
+    background-color: #649a04;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.btn_prime a {
+    color: #ffffff;
+    position: relative;
+}
+
+.btn_prime a:hover {
+    color: #ffffff;
+}
+
+.btn_prime:hover {
+    background-color: #5a880c;
+}
+
+
 .view_all {
     display: inline-block;
     position: relative;

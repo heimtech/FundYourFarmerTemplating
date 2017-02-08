@@ -1593,3 +1593,13 @@ p.noo-mail-desc {
 h3.noo-mail-title {
   color: white ;
 }
+
+.bigTitle {
+  font-size: 36px;
+  font-weight: BOLD;
+}
+
+.smallTitle {
+  font-size: 24px;
+  font-weight: BOLD;
+}
