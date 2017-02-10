@@ -57,11 +57,36 @@
 								<nav class="pull-right noo-menu-option">
 									<a href="#" class="button-expand-option"><i class="fa fa-ellipsis-v"></i></a>
 									<ul>
-										<li class="menu-item fly-right">
-											<a href="my-account.html">
-												<i class="fa fa-user"></i>Anmelden/Registrieren
+										<li class="dropdown">
+											<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+												<img src="images/avatar/avatar_120x120.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
 											</a>
+											<ul class="dropdown-menu dropdown-custom dropdown-menu-right">
+												<li class="dropdown-header text-center">Account</li>
+
+												<li>
+													<a href="profil.html">
+														<i class="fa fa-user fa-fw pull-right"></i>
+														Mein Profil
+													</a>
+													<a href="Dashboard.html">
+														<i class="fa fa-user fa-fw pull-right"></i>
+														Mein Account
+													</a>
+													<!-- Opens the user settings modal that can be found at the bottom of each page (page_footer.html in PHP version) -->
+													<a href="#" data-toggle="modal">
+														<i class="fa fa-cog fa-fw pull-right"></i>
+														Meine Mitgliedschaft
+													</a>
+
+												</li>
+												<li class="divider"></li>
+												<li>
+													<a href="#"><i class="fa fa-ban fa-fw pull-right"></i> Abmelden</a>
+												</li>
+											</ul>
 										</li>
+
 										<li class="menu-item fly-right">
 											<a href="wishlist.html">
 												<i class="fa fa-heart-o"></i>Wishlist 
@@ -93,7 +118,6 @@
 												<li><a href="profil.html">Profil</a></li>
 												<li><a href="shop-detail.html">Produktansicht</a></li>
 												<li><a href="messagecenter.html">Nachrichten</a></li>
-												<li><a href="index_angemeldet.html">Angemeldeter User</a></li>
 
 											</ul>
 									   </li>

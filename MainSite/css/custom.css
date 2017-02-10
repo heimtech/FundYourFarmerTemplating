@@ -1603,3 +1603,33 @@ h3.noo-mail-title {
   font-size: 24px;
   font-weight: BOLD;
 }
+
+.siegel .item {
+  display: inline-block;
+}
+
+.profil .star-rating {
+  float: left;
+}
+
+.profil h3, .profil h4 {
+  color: #000000;
+}
+
+.anbieterDaten .description {
+  padding-top: 0px;
+  margin-top: 0px !important;
+}
+
+.create-post {
+  background-color: #f4eede;
+}
+
+div#googleMap {
+  background-color: grey;
+  background-color: whitesmoke !important;
+}
+
+.google-map {
+  padding-top: 50px;
+}
