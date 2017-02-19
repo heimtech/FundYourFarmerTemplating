@@ -85,7 +85,7 @@ h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey{
 
 .profile-link{font-weight: 600;}
 
-.text-muted{color: #939598;}
+.text-muted{color: #525252;}
 
 a{color: #649a04;}
 
@@ -955,6 +955,7 @@ ul.online-users li span.online-dot{
 .chat-room ul.contact-list li{
   width: 100%;
   margin-bottom: 0;
+  border-top: 1px solid #cacaca;
 }
 
 .chat-room ul.contact-list li a{
@@ -965,7 +966,6 @@ ul.online-users li span.online-dot{
 
 .chat-room ul.contact-list li a:hover, .chat-room ul.contact-list li a:active, .chat-room ul.contact-list li a:focus{
   border: none;
-  border-bottom: 1px solid #8dc63f !important;
   border-radius: 0;
   cursor: pointer;
   background: none;
@@ -987,7 +987,7 @@ ul.online-users li span.online-dot{
 }
 
 .chat-room ul.contact-list li a .contact .msg-preview .chat-alert{
-  background: red;
+  background: #649b04;
   text-align: center;
   border-radius: 4px;
   padding: 1px 6px;
@@ -1018,7 +1018,7 @@ ul.online-users li span.online-dot{
 }
 
 .chat-room .chat-body ul.chat-message li.left .chat-item{
-  background: rgba(141,198,63, .1);
+  background: rgba(99, 99, 99, 0.1);
   margin-left: 50px;
   padding: 5px 10px;
   position: relative;
@@ -1043,11 +1043,11 @@ ul.online-users li span.online-dot{
 }
 
 .chat-room .chat-body ul.chat-message li.right .chat-item{
-  background: rgba(39,170,225, .1);
   margin-right: 50px;
   padding: 5px 10px;
   position: relative;
   border-radius: 10px;
+  background: rgba(116, 166, 31, 0.41);
 }
 
 .chat-room .chat-body ul.chat-message li.right .chat-item::after{
@@ -1063,7 +1063,7 @@ ul.online-users li span.online-dot{
 }
 
 .chat-room .chat-body ul.chat-message li.right .chat-item .chat-item-header{
-  border-bottom: 1px dotted #bce8f7;
+  border-bottom: 1px dotted #484848;
   margin-bottom: 10px;
 }
 
@@ -1889,7 +1889,16 @@ ul.contact li i{
 }
 
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6 {
  font-family: 'Lato', sans-serif;
 
+}
+
+.chat-room ul.contact-list li.active, .chat-room ul.contact-list li:active  {
+  background-color: rgba(137, 181, 63, 0.32);
+  /* color: white; */
+}
+
+.msg-preview h5 {
+  font-weight: bold;
 }
