@@ -1271,12 +1271,12 @@ header .navbar,
 .nav-tabs {
   border-bottom: none;
 }
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:focus, 
-.nav-tabs>li.active>a:hover,
-.nav>li>a:focus, 
-.nav>li>a:hover,
-.nav-tabs>li>a {
+.commerce-tabs .nav-tabs>li.active>a,
+.commerce-tabs .nav-tabs>li.active>a:focus,
+.commerce-tabs .nav-tabs>li.active>a:hover,
+.commerce-tabs .nav>li>a:focus,
+.commerce-tabs .nav>li>a:hover,
+.commerce-tabs .nav-tabs>li>a {
   background: none;
   border: none;
   margin: 0;
@@ -1627,9 +1627,25 @@ h3.noo-mail-title {
 
 div#googleMap {
   background-color: grey;
-  background-color: whitesmoke !important;
+  background-color: #e8e8e8 !important;
 }
 
 .google-map {
   padding-top: 50px;
 }
+
+.dropdown img.avatar {
+  height: 60px;
+}
+
+.chat-room {
+  padding-top: 50px;
+  margin-top: 50px;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+h1.page-title.eff {
+  font-family: 'Pacifico', cursive;
+}
+
